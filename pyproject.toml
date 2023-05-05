@@ -1,46 +1,27 @@
 [build-system]
-requires = ["setuptools", "setuptools_scm"]
-build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
 
 [project]
 name = "ecnn4klm"
 description = "My package description"
 readme = "README.md"
 license = {file = "LICENSE"}
+authors = [
+  {name = "Yu Miyazaki", email = "yumiyazaki@g.ecc.u-tokyo.ac.jp"}
+]
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
 requires-python = "==3.*"
 dependencies = [
-    "numpy~=1.21"
+    "torch>=1.8.0"
+    "e3nn"
+    "numpy"
+    "scipy"
+    "matplotlib"
 ]
 dynamic = ["version"]
 
-[project.optional-dependencies]
-dev = [
-    "pytest",
-    "flake8",
-    "mypy",
-    "black",
-    "isort"
-]
-
 [tool.setuptools]
 package-dir = {"" = "src"}
-
-[tool.setuptools.dynamic]
-version = {attr = "foo.version.version"}
-
-[tool.setuptools_scm]
-write_to = "src/foo/version.py"
-version_scheme = "python-simplified-semver"
-local_scheme = "no-local-version"
-
-[tools.black]
-line-length = 100
-
-[tool.isort]
-profile = "black"
-
-[tools.flake8]
-max-line-length = 100
