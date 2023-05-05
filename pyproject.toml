@@ -15,13 +15,15 @@ classifiers = [
 ]
 requires-python = "==3.*"
 dependencies = [
-    "torch>=1.8.0"
-    "e3nn"
-    "numpy"
-    "scipy"
-    "matplotlib"
+    "torch>=1.8.0",
+    "e3nn",
+    "numpy",
+    "scipy",
+    "matplotlib",
 ]
 dynamic = ["version"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+
+
