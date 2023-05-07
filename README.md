@@ -4,7 +4,7 @@ ecnn4klm aims to perform fast and large-scale simulations of localized spin dyna
 
 ## Installation
 
-`ecnn4klm` is based on PyTorch and e3nn. To install, you need PyTorch version 1.8 or higher. We also highly recommend running it on a GPU to maximize performance.
+`ecnn4klm` is based on PyTorch and e3nn. To install, you need PyTorch version 1.8 or higher. I also highly recommend running it on a GPU to maximize performance.
 
 ```bash
 pip install git+https://github.com/Miyazaki-Yu/ecnn4klm.git
