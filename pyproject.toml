@@ -26,4 +26,6 @@ dynamic = ["version"]
 [tool.setuptools]
 package-dir = {"" = "src"}
 
+[tool.setuptools.dynamic]
+version = {attr = "src.ecnn4klm.__version__"}
 
