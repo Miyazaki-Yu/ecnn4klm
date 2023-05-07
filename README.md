@@ -14,7 +14,7 @@ pip install git+https://github.com/Miyazaki-Yu/ecnn4klm.git
 
 You can easily try it out on your browser using Google Colab.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Miyazaki-Yu/blob/main/notebook/ecnn_test.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Miyazaki-Yu/blob/main/notebook/ecnn_test.ipynb){:target="_blank"}
 
 ## Data
 
