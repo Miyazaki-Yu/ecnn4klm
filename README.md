@@ -21,7 +21,7 @@ You can easily try it out on your browser using Google Colab.
 
 ## Data
 
-The models and the datasets for both the square lattice and the triangular lattice cases, which are discussed in the paper, can be found in the `data/` directory.
+The models and the datasets for both the square lattice and the triangular lattice cases, which are discussed in the paper, can be found in the [`data/`](https://github.com/Miyazaki-Yu/ecnn4klm/tree/main/data) directory.
 
 ## How to Cite
 
