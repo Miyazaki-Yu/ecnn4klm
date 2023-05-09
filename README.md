@@ -26,7 +26,12 @@ The models and the datasets for both the square lattice and the triangular latti
 ## How to Cite
 
 ```bibtex
-@misc{
-
+@misc{miyazaki2023equivariant,
+      title={Equivariant Neural Networks for Spin Dynamics Simulations of Itinerant Magnets}, 
+      author={Yu Miyazaki},
+      year={2023},
+      eprint={2305.03804},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.str-el}
 }
 ```
