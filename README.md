@@ -1,6 +1,6 @@
 # ecnn4klm: Equivariant Convolutional Neural Network for Kondo Lattice Model
 
-`ecnn4klm` aims to perform fast and large-scale simulations of localized spin dynamics in the Kondo lattice model using an equivariant convolutional neural network (ECNN). For details on the ECNN model, please refer to the paper: [arvix:2305.03804](https://arxiv.org/abs/2305.03804).
+`ecnn4klm` aims to perform fast and large-scale simulations of localized spin dynamics in the Kondo lattice model using an equivariant convolutional neural network (ECNN). For details on the ECNN model, please refer to the paper: [Y. Miyazaki, <i>Mach. Learn.: Sci. Technol.</i> <b>4</b> 045006 (2023)](https://dx.doi.org/10.1088/2632-2153/acffa2).
 
 ## Installation
 
@@ -26,12 +26,17 @@ The models and the datasets for both the square lattice and the triangular latti
 ## How to Cite
 
 ```bibtex
-@misc{miyazaki2023equivariant,
-      title={Equivariant Neural Networks for Spin Dynamics Simulations of Itinerant Magnets}, 
-      author={Yu Miyazaki},
-      year={2023},
-      eprint={2305.03804},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.str-el}
+@article{Miyazaki2023_ecnn4klm,
+doi = {10.1088/2632-2153/acffa2},
+url = {https://dx.doi.org/10.1088/2632-2153/acffa2},
+year = {2023},
+month = {oct},
+publisher = {IOP Publishing},
+volume = {4},
+number = {4},
+pages = {045006},
+author = {Yu Miyazaki},
+title = {Equivariant neural networks for spin dynamics simulations of itinerant magnets},
+journal = {Machine Learning: Science and Technology},
 }
 ```
