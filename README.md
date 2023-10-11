@@ -1,6 +1,6 @@
 # ecnn4klm: Equivariant Convolutional Neural Network for Kondo Lattice Model
 
-`ecnn4klm` aims to perform fast and large-scale simulations of localized spin dynamics in the Kondo lattice model using an equivariant convolutional neural network (ECNN). For details on the ECNN model, please refer to the paper: [Y. Miyazaki, <i>Mach. Learn.: Sci. Technol.</i> <b>4</b> 045006 (2023)](https://dx.doi.org/10.1088/2632-2153/acffa2).
+`ecnn4klm` aims to perform fast and large-scale simulations of localized spin dynamics in the Kondo lattice model using an equivariant convolutional neural network (ECNN). For details on the ECNN model, please refer to the paper: <a href="https://dx.doi.org/10.1088/2632-2153/acffa2" target="blank">Y. Miyazaki, <i>Mach. Learn.: Sci. Technol.</i> <b>4</b> 045006 (2023)</a>.
 
 ## Installation
 
